@@ -1,15 +1,17 @@
-
+:root{
+    --width-size: 12%;
+}
 .whiteSquare{
     background-color: wheat;
-    width:12%;
-    height: 12%;
+    width:var(--width-size);
+    height:var(--width-size);
 }
 
 
 .blackSquare{
     background-color: rgb(73, 73, 73);
-    width:12%;
-    height: 12%;
+    width:var(--width-size);
+    height: var(--width-size);
 }
 .container{
     display: flex;
