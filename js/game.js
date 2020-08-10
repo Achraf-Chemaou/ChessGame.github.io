@@ -86,7 +86,7 @@ export function StartGame(){
 				console.log(gameOver);
 			}
 		}	
-		$('#playerTurn').html("The player's turn is :" + playerTurn);
+		$('#playerTurn').html("The player's turn is hehehe:" + playerTurn);
 	})
 }
 
